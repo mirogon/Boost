@@ -8,7 +8,9 @@ public class TileManager : MonoBehaviour
 
 	private float tileLength = 19.76f;
     private int maxTiles = 5;
+
 	private List<GameObject> activeTiles;
+
     private Transform playerTransform;
 
 
@@ -30,8 +32,6 @@ public class TileManager : MonoBehaviour
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
     
-        //Debug.unityLogger.Log("Player Z: ", playerTransform.position.z);
-        //Debug.unityLogger.Log("Tile Z: ", activeTiles[0].transform.position.z);
         if (playerTransform.position.z > activeTiles[0].transform.position.z + tileLength + 10)
         {
             Destroy(activeTiles[0]);

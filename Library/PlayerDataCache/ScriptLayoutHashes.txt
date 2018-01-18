@@ -2,7 +2,7 @@ Android
 SceneListBegin?
 Assets/Scenes/Game.unity
 SceneListEnd?
-654644af35f3ee00f6211e3aeae807a2 Assembly-CSharp.dll:.UIManager
+8198c67f2cefebe6f89a22835e189cc8 Assembly-CSharp.dll:.UIManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.cameraMotor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -170,7 +170,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-3e46dd88ca26ade177c26851c1aca476 Assembly-CSharp.dll:.PlayerManager
+2f2f822dd7e12ab240252ec1b822ae2a Assembly-CSharp.dll:.PlayerManager
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad

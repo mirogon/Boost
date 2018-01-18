@@ -5,11 +5,10 @@ using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour {
 
-
-    public EventTrigger leftButtonTrigger;
-    public EventTrigger rightButtonTrigger;
     public EventTrigger boostButtonTrigger;
     public EventTrigger decelerateButtonTrigger;
+    public EventTrigger shootButtonTrigger;
+
 
 	// Use this for initialization
 	void Start ()
@@ -35,7 +34,20 @@ public class UIManager : MonoBehaviour {
         decelerateUp.callback.AddListener((eventData) => { GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>().StopDeceleration(); });
         decelerateButtonTrigger.triggers.Add(decelerateUp);
 
+
+        EventTrigger.Entry shootDown = new EventTrigger.Entry();
+        shootDown.eventID = EventTriggerType.PointerDown;
+        shootDown.callback.AddListener((eventData) => { GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>().Shoot(); });
+        shootButtonTrigger.triggers.Add(shootDown);
+
+        EventTrigger.Entry shootUp = new EventTrigger.Entry();
+        shootUp.eventID = EventTriggerType.PointerUp;
+        shootUp.callback.AddListener((eventData) => {  });
+        shootButtonTrigger.triggers.Add(shootUp);
+
+
+
     }
-	
+
 
 }
